@@ -132,7 +132,7 @@ public class CreateObservablesActivity extends AppCompatActivity {
 //                });
 
                 Observable observable = Observable.just(valueStr);
-                valueStr = "hello, world, defer";
+                valueStr = "hello, world, defer, test jenkins";
                 observable.subscribe(new Subscriber<String>() {
                     @Override
                     public void onCompleted() {
